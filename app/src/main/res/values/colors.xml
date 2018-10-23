@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#12814c</color>
+    <color name="colorPrimaryDark">#12814c</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNormal">#4459f5</color>
+    <color name="colorPressed">#1329c6</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#08ff00</color>
+    <color name="blue">#465efc</color>
+    <color name="deep_blue">#3b4fd2</color>
+
+    <!--路线规划模式选中颜色-->
+    <color name="slectedColor">#FFFFFFFF</color>
+    <!--路线规划模式未选中颜色-->
+    <color name="unSlectedColor">#AAFFFFFF</color>
+
+    <!--标题栏颜色-->
+    <color name="actionBarColor">#393A3E</color>
+    <!--标题栏点击背景色-->
+    <color name="actionBarPreColor">#303135</color>
+    <!--分割线颜色-->
+    <color name="divideColor">#F0F1F2</color>
+    <!--背景色-->
+    <color name="bgColor">#FEFFFF</color>
+    <!--提示语颜色-->
+    <color name="hintTextColor">#F0F1F2</color>
+    <!--地点名称文字颜色-->
+    <color name="positionNameColor">#0B0F12</color>
+    <!--地点地址文字颜色-->
+    <color name="positionAddressColor">#999999</color>
+    <!--列表默认颜色-->
+    <color name="itemNorColor">#FFFEFFFF</color>
+    <!--列表点击颜色-->
+    <color name="itemPreColor">#EEEEEE</color>
+    <!--标题栏的绿色按钮默认颜色-->
+    <color name="greenNorColor">#FF00AD2E</color>
+    <!--标题栏的绿色按钮点击颜色-->
+    <color name="greenPreBtn">#DD00AD2E</color>
+</resources>

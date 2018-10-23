@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">CC Electric Dog</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="phone">Please input your phone number</string>
+    <string name="password">Please input your password</string>
+    <string name="use_third_account">Using Other Account</string>
+    <string name="create_infm_account">Create account</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="no_install_wechat">no_install_wechat</string>
+    <string name="no_install_qq">no_install_qq</string>
+    <string name="tip_loging">Logging...</string>
+    <string name="tip_begin_oauth">Begin oauth...</string>
+    <string name="tip_login_fail">Login Fail</string>
+    <string name="oauth_fail">Oauth fail</string>
+    <string name="oauth_cancle">Oauth cancel</string>
+    <string name="tip_phone_regex_not_right">Phone regex not right</string>
+    <string name="tip_account_empty">Account cannot be empty!</string>
+    <string name="tip_account_regex_not_right">Account regex not right</string>
+    <string name="tip_password_can_not_be_empty">Password cannot be empty!</string>
+    <string name="xiaowu">IT_xiao小巫</string>
+    <string name="user_rule">User Agreement</string>
+    <string name="create_account">Create account</string>
+    <string name="send_verification_code">Verify</string>
+    <string name="count_down">%ss</string>
+    <string name="tip_please_input_phone">Please input your phone number</string>
+    <string name="tip_phone_can_not_be_empty">Phone number cannot be empty</string>
+    <string name="tip_please_input_code">please input verification code</string>
+    <string name="tip_please_input_6_32_password">Please input a password(6-32digits)</string>
+    <string name="reset_pwd">Reset password</string>
+    <string name="tip_please_input_nickname">Please input your nickname</string>
+</resources>

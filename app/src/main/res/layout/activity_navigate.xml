@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_navigate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical"
+    tools:context=".NavigateActivity">
+
+    <include android:id="@+id/include_nav_header"
+        layout="@layout/nav_header"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/change"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/img_change"
+            android:layout_toLeftOf="@+id/img_voice"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_current_pos"
+                style="@style/search_pos_style"
+                android:text="My Position"
+                android:drawableLeft="@mipmap/start_point"
+                android:drawablePadding="5dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="0.1dp"
+                android:background="#22000000"/>
+
+            <TextView
+                android:id="@+id/tv_destination"
+                style="@style/search_pos_style"
+                android:layout_marginTop="0.5dp"
+                android:drawableLeft="@mipmap/end_point"
+                android:drawablePadding="5dp"
+                android:hint="Input Destination"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/voice"/>
+    </RelativeLayout>
+
+</LinearLayout>
